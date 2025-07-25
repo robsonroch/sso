@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: docker
+  application:
+    name: sso
+    lifecycle:
+      timeout-per-shutdown-phase: 30s
+  cloud:
+    openfeign:
+      circuitbreaker:
+        enabled: true
+server:
+  port: 8080
+  shutdown: graceful
+  servlet:
+    context-path: /${spring.application.name}
+
