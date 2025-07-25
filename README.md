@@ -28,8 +28,8 @@ Este projeto demonstra uma estrutura básica de autenticação utilizando **Spri
 
 1. Clone o projeto:
    ```bash
-   git clone https://github.com/seuusuario/seuprojeto.git
-   cd seuprojeto
+   git clone https://github.com/robsonroch/sso.git
+   cd sso
    ```
 
 2. Execute a aplicação:
